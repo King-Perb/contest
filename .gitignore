@@ -1,0 +1,9 @@
+# Ignore build artifacts
+/build/
+
+# Ignore Move-specific files
+Move.lock
+*.mv
+*.mvir
+*.bcs
+

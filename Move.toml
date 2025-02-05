@@ -1,0 +1,14 @@
+[package]
+name = "contest"
+version = "1.0.0"
+authors = [""]
+edition = "2024"
+
+[addresses]
+contest = "0xa17b9cc3777aa7d4ffd64206b5b5ff9c14a5170c587ca214ec94c8427f4002e1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+meme = { local = "./sources/meme.move" }
+vote_proof = { local = "./sources/vote_proof.move" }
+voting_key = { local = "./sources/voting_key.move" }
